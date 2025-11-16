@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+#root {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Container {
+    background-color: #BC2628;
+    display: flex;
+    justify-content: center;
+}
+
+.Image {
+    width: 300px;
+    height: auto;
+    object-fit: contain;
+    margin: 1.5rem 0rem;
+}
+
+.ContainerBody {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    gap: 40px;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 40px 60px;
+}
+
+.ProductsContainer {
+    flex: 1;
+}
+
+.TableFull {
+    width: 100%;
+}
+
+.Text {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.CartContainer {
+    flex: 1;
+}
+
+.FooterText {
+    font-weight: 500;
+    font-size: 18px;
+    padding: 10PX;
+}
+
+
